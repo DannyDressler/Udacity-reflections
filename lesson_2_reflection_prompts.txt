@@ -34,5 +34,11 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	The git merge command combines the changes of two branches to one branch. 
+	After the branches have been merged the commits of both branches are also merged and listed by date in the log.
+	However, since the single commits do not provide information about which branch they are from I can use git log --graph
+	to see which commits are comming from the same branch. 
+	I can also use git show to see the changes from the selected commit to the next within the same branch.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
