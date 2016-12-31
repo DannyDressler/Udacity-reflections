@@ -21,19 +21,15 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-<<<<<<< HEAD
-	The diagrams allow me to get a better overview about the branches I have created. 
-	In this way I can easily manage different features and collaborate more easily.
-
-||||||| merged common ancestors
-=======
 	When I want to implement a new language or a new feature I can use branches if the master should remain unchanged.
 	Branches allows me to implement changes or modification in the code while leaving the master as it is.
 	I can have a master branch that allows remains fully operational, while e.g. a developmental or experimental branch can break.
 	I can even for on a specific feature in a branch, and switch to another one if I get bored without affecting the main code.
 
->>>>>>> easy-mode
 How do the diagrams help you visualize the branch structure?
+
+	The diagrams allow me to get a better overview about the branches I have created. 
+	In this way I can easily manage different features and collaborate more easily.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
