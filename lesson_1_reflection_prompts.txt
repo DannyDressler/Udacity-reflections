@@ -1,0 +1,38 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It gives a quick overview about where changes occured and what could be the problem without reviewing the complete code
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I can see my code evolve and can benefit from more ideas I had previously. I also saves me times since I have access to all previous versions 
+	to track systematic errors more easily.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: I can choose logical and meansingful steps to indicate my commits. This is important to not commit too large or too small changes.
+	Cons: It can be time consuming and might interupt the work flow.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Many programs contain multiple files that are interconnected. Since Git is specifically designed for coding it considers this fact
+	and summarises all the files of a program in one commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log shows the commit history and git diff allows you to select historic files in order to show the changes between the single commits
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Having a savety net allows me to more freely try new things without compromising the quality of exisitng code. 
+	By using git log I can easily see all changes ever made and checkout old versions to find out in which version an error occured. 
+	I can then identify the concrete error by comparing two versions using git diff.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    First I would like to organise my exisitng files with Git and then get to know the workflow by modifying them
